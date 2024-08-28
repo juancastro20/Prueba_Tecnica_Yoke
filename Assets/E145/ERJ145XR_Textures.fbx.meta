@@ -1,0 +1,709 @@
+fileFormatVersion: 2
+guid: 4b17c37e47a4982408e397b423cd74b4
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BUTTONS
+    second: {fileID: 2100000, guid: 5f0d852d5d57a28439b2850f90ddd234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CIRCUIT_BRAKER_LH
+    second: {fileID: 2100000, guid: c3dd68a4741782043bb022905604f2a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CIRCUIT_BRAKER_RH
+    second: {fileID: 2100000, guid: 1a3b9683f2dcfcd4984fb3b4867e253e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GLARESHIELD_BUTTONS
+    second: {fileID: 2100000, guid: abc4f1ce0fe975c4aa80f185a66a8f45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GLARESHIELD_STRUCTURE_AND_PANELS
+    second: {fileID: 2100000, guid: 26c55752d0937e84d972eb9eee0d3a33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_CEILING_LH_SIDE
+    second: {fileID: 2100000, guid: aaf22dae97a5f7a4d89c6d3a39924346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_CEILING_RH_SIDE
+    second: {fileID: 2100000, guid: 94888d1219446674c938a214707d9190, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_CENTRAL_PARAL_AND_REAR_SECTION
+    second: {fileID: 2100000, guid: 693d285247a577e4795430aa49da70a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_COMPASS
+    second: {fileID: 2100000, guid: 3c01269588ce24f4bb9a7e39983c6f30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_DETAIL_A
+    second: {fileID: 2100000, guid: d07417f44fe72be42bc0e8f2af2420a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_DETAIL_B
+    second: {fileID: 2100000, guid: 9fa8a0ce971312e4fa8206e5dfd7c416, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_DETAIL_C
+    second: {fileID: 2100000, guid: 8112a3e1171126d4e916fd0cbc9df02f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_DOME_LIGHT
+    second: {fileID: 2100000, guid: b9a4018f1b454314badca10f3e681f4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_DOOR
+    second: {fileID: 2100000, guid: d66a4e86b490d8342b60bf3baf20368f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_DOOR_SIDE_WALLS
+    second: {fileID: 2100000, guid: 10755f5e336caf24e98ea5e2a2b4df5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_FIRE_EXTINGUISHER
+    second: {fileID: 2100000, guid: 71065ca8f1977bf43bf8e5642f6102b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_FLASHLIGHT
+    second: {fileID: 2100000, guid: 90edf320ce5300242ae4e4ab5c83ebfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_FLASHLIGHT_BASE
+    second: {fileID: 2100000, guid: ea6b6f41eb2a7b0488f69f5366507f49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_FLOOR
+    second: {fileID: 2100000, guid: 1fc26443341c7844ba5e0f7510c3f96a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_FRONTAL_SECTION
+    second: {fileID: 2100000, guid: 326ed22bce23bc944a967f0df09f7308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_FRONTAL_UPPER_SECTION
+    second: {fileID: 2100000, guid: d07701dc9e1b92f44a479d8e1ccfc5cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_HANDLES
+    second: {fileID: 2100000, guid: 02021bf64f53b4d438c5f12d819ce236, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_LATERAL_BASES
+    second: {fileID: 2100000, guid: fd2bbc65fac527e4f83152b937ec1a86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_OXYGEN_MASK_PANEL
+    second: {fileID: 2100000, guid: 41d18d17050e28c45b222547923c9763, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_PEDALS
+    second: {fileID: 2100000, guid: 79c44b46b882b7240881635b6981f015, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_PILOT_READING_LIGHT
+    second: {fileID: 2100000, guid: 2a4b53d0af5f93b44b567aabcc1c0656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_RH_READING_LIGHTS
+    second: {fileID: 2100000, guid: 2cbef65a7c5393e4c8f7f4e26b7af894, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_SIDE_WALLS
+    second: {fileID: 2100000, guid: 6d6687bd07c90254c962db3916f613f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_SIGHT_DEVICE
+    second: {fileID: 2100000, guid: d3630eb8efd404d4189eb2fcbb8b963b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_STEERING_HANDLE
+    second: {fileID: 2100000, guid: aca7245dffa0d8c40a18bbf917d57c83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_UPPER_CENTER_PANEL
+    second: {fileID: 2100000, guid: 221feec22e3f3634db48e7b638247b43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_WINDOWS_2
+    second: {fileID: 2100000, guid: 7e363eb395f5b874db1c23fdf77a5925, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GS_WINDOW_HANDLE
+    second: {fileID: 2100000, guid: f0cf67e06860c614692cb6a935bbcb95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GUARDS
+    second: {fileID: 2100000, guid: 7df0c4ee088fa7b4a9ee6cb827ba22dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KNOBS
+    second: {fileID: 2100000, guid: 9399da2056590304f8548e6c1a29a30b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_DIGITAL_AUDIO_PANEL
+    second: {fileID: 2100000, guid: 6fbb8c7c0fb0893418a14ca2911c4907, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_LANDING_GEAR
+    second: {fileID: 2100000, guid: 090c75f9f8917c74f84981348350c8be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_LATERAL_PANELS
+    second: {fileID: 2100000, guid: fd6adf927c39f484eb552ea9dcf34e15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_RMS
+    second: {fileID: 2100000, guid: 01c94fd538470a44c8c7044aa7773248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_SCREENS_AND_BUTTONS
+    second: {fileID: 2100000, guid: b41ba4aade4bb0f4a95713b64ed259b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_SCREEN_DISPLAYS
+    second: {fileID: 2100000, guid: d17887f40d66c3f4683378bad164d4cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_STBY_INSTRUMENT
+    second: {fileID: 2100000, guid: 0e577bf1b009c4e43b880535ffb09af6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_STRUCTURE
+    second: {fileID: 2100000, guid: 266f0cfd396ef384a81839189fc144d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MCDU_DISPLAY
+    second: {fileID: 2100000, guid: 65f6ff16af6a1fa4dae16dffbb7985f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MCDU_DISPLAY.001
+    second: {fileID: 2100000, guid: 8af7cffa59c2ed84db7cba447562df06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: METALLIC SWITCHES
+    second: {fileID: 2100000, guid: 4ce4ac639988eff43a8ec00d26fb6ec5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OVERHEAD_STRUCTURE
+    second: {fileID: 2100000, guid: 313c13915c12caf4095be18c6fd90d20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OVERHEAD_SWITCHES_AND_FIRE_HANDLES
+    second: {fileID: 2100000, guid: 26c298bf900990d429f88715ba560a9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PEDESTAL_BLACK_KNOBS_AND_MCDU_BUTTONS
+    second: {fileID: 2100000, guid: 878cba4af2533f04aafa259d3a85c692, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PEDESTAL_HANDLES
+    second: {fileID: 2100000, guid: 5051504f5796db44ca476fff6c5f3468, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PEDESTA_STRUCTURE_AND_PANELS
+    second: {fileID: 2100000, guid: 3724b7fcfb8963f4f9d42ca4df46deb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilot Seats.001
+    second: {fileID: 2100000, guid: 164a53f8adee2774484d91168f5e405a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SCREWS
+    second: {fileID: 2100000, guid: d61fafe4a3d824640b293e8a2056fbce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TRANSPARENT_GUARDS_2
+    second: {fileID: 2100000, guid: 3bab3932bbaf0a9408c7eb83980f1334, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YOKES
+    second: {fileID: 2100000, guid: e7c1aaa789dc9d54cb4f2f663425921f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Aluminium_Clean_basecolor
+    second: {fileID: 2800000, guid: aa7c12d6a9cc77748b0ba19a6ffbd5cc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Aluminium_Clean_metallic
+    second: {fileID: 2800000, guid: 75d08366653aa5f4bb1035f1d00f82b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Aluminium_Clean_normal
+    second: {fileID: 2800000, guid: 593efc9dcd77ba641913efa678b8a3e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BUTTONS
+    second: {fileID: 2800000, guid: ea2b95c104a28b5418e318f9bd135757, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CENTRAL_PARAL_AND_REAR_SECTION
+    second: {fileID: 2800000, guid: b314bd506c26eb54abc7fe0468aff803, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CIRCUIT_BRAKER_LH
+    second: {fileID: 2800000, guid: 4da6e23cd1618c9448082499cad6f16d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CIRCUIT_BRAKER_RH
+    second: {fileID: 2800000, guid: b1e6adf452ed9054b9b616d2dd4d6c96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: CIRCUIT_BRAKER_RH_normals
+    second: {fileID: 2800000, guid: 78e3153497820a6449cce82e2d54511f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: COLD_START_SCREEN_DISPLAYS
+    second: {fileID: 2800000, guid: 0baa385715973924488e397da6bdc50b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DOME_LIGHT
+    second: {fileID: 2800000, guid: 5e81f5e051080494abcf06a7c2fff623, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DOOR_SIDE_WALLS
+    second: {fileID: 2800000, guid: ba8aa10be4a363045bf689a9be082618, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GENERAL STRUCTURE UV C
+    second: {fileID: 2800000, guid: 5e1e4460c69354e48b1053bd43a073c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GLARESHIELD_BUTTONS_AND_KNOBS
+    second: {fileID: 2800000, guid: 2e87c5159e123724097bbed16100f37f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GLARESHIELD_STRUCTURE_AND_PANELS
+    second: {fileID: 2800000, guid: 1404554981c37264a9061ba6cc9a9664, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_CEILING_LH_SIDE
+    second: {fileID: 2800000, guid: 27a8e20d218207a4fa7c12d9c7dbc38f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_CEILING_RH_SIDE
+    second: {fileID: 2800000, guid: 68c88fdeb3a5c8a419fae31db86aa7cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_COCKPIT_DOOR
+    second: {fileID: 2800000, guid: 53408f0e695641a4d82fa6f9e19e25b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_COCKPIT_DOOR_normals
+    second: {fileID: 2800000, guid: 7353ed39117a8044aa8a77679bc7d714, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_COMPASS
+    second: {fileID: 2800000, guid: 74361254a3e2cc64aa5a7c47d87ff55a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_DETAIL_A
+    second: {fileID: 2800000, guid: 2bd060cdcd84a1c4794aefb06f9b11ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_DETAIL_A_NORMALS
+    second: {fileID: 2800000, guid: e5990a408f789e14284cd20edaffe261, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_DETAIL_B
+    second: {fileID: 2800000, guid: fd9ea5cf58c53f541ade19f5860b1b5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_DOOR_SIDE_WALLS_2_NORMALS
+    second: {fileID: 2800000, guid: 869455eb16e5a1e41a5aab61f394d370, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_FIRE_EXTINGUISHER
+    second: {fileID: 2800000, guid: 3a7febb323b090b44ae9aa6ea697c4ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_FLASHLIGHT
+    second: {fileID: 2800000, guid: 9cf87d71f778ccf41ad30836c7b5b306, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_FLASHLIGHT_BASE
+    second: {fileID: 2800000, guid: 459ef8ca29cd29046b7b274123dc3823, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_FLOOR
+    second: {fileID: 2800000, guid: 2f28a24f17e6a154b93347dba43dbddc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_FRONTAL_SECTION
+    second: {fileID: 2800000, guid: 4564edf483e5f3744a2b398b888908ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_HANDLES
+    second: {fileID: 2800000, guid: 52f9eb823c975974da3c3bf7c16c3054, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_LATERAL_BASES
+    second: {fileID: 2800000, guid: cb896fe4d80da7249acae67ec14b8fb3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_OXYGEN_MASK_PANEL
+    second: {fileID: 2800000, guid: 187e988ed1359ca44b1f1a28079fe071, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_OXYGEN_MASK_PANEL_NORMALS
+    second: {fileID: 2800000, guid: 17600df3f3b73e54bb2fe2af4835504d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_PEDALS
+    second: {fileID: 2800000, guid: ca3b94e151d375e4f80618d19cee5a45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_PEDALS_normals
+    second: {fileID: 2800000, guid: 7f7c1dcd98d44ef4ba1f9742d9b8e3bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_PILOT_READING_LIGHT
+    second: {fileID: 2800000, guid: e6b371a5b415fd04a85a85649a98be49, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_READING_LIGHT
+    second: {fileID: 2800000, guid: 6be0f08a5330ffd43a83b3f355e41870, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_SIDE WALLS_2
+    second: {fileID: 2800000, guid: e22d62e7654ebfa44ab6647bd1d9e61c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_SIDE WALLS_2_NORMAL
+    second: {fileID: 2800000, guid: 8c75c6aa3fed72c439ab100c68941445, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_SIGHT_DEVICE
+    second: {fileID: 2800000, guid: 4916d3d7497b7d34b8def195b7dff715, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_STEERING_HANDLE
+    second: {fileID: 2800000, guid: e725ea5b0a4b82d448579086a270bf6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_UPPER_CENTER_PANEL
+    second: {fileID: 2800000, guid: f55483ac37cc6784e8509752750c6355, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_UPPER_CENTER_PANEL_NORMALS
+    second: {fileID: 2800000, guid: ee0438ba82cd417418f1ac94f91d5c2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_WINDOWS_2
+    second: {fileID: 2800000, guid: 30bf990f671180147a34dc47d11ef7e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GS_WINDOW_HANDLE
+    second: {fileID: 2800000, guid: 714763f1fa97ff24dbd2f5fdfa7f3e56, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GUARDS
+    second: {fileID: 2800000, guid: 0068f73ff7e6b58459b1c37133f865f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KNOBS
+    second: {fileID: 2800000, guid: 6056e16aff8dbc6469b5f628b5664aaa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KNOBS_NORM
+    second: {fileID: 2800000, guid: d6e4c757db650a240b8c18de5cb050af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_DIGITAL_AUDIO_PANEL
+    second: {fileID: 2800000, guid: 8546d053a87232241b586daaa1f17f97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_INTEGRATED_STBY_INSTRUMENT
+    second: {fileID: 2800000, guid: f65f121c62018574e832ef823ed21e6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_LANDING_GEAR
+    second: {fileID: 2800000, guid: ad3c9cd11f9099847a25704531c3cf8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_LATERAL_PANELS
+    second: {fileID: 2800000, guid: 449bfee1a89464841b18584074ea13c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_RMS
+    second: {fileID: 2800000, guid: c954954a5f50d1046b20be52f07eeb46, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_SCREENS_BUTTONS
+    second: {fileID: 2800000, guid: 6453359480daef74696e694d22b29c97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_STRUCTURE
+    second: {fileID: 2800000, guid: f9ea82a459639434da7ab30332563696, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_STRUCTURE_METALLIC
+    second: {fileID: 2800000, guid: 6d9ea12906b3dec4fb790890cb4dd1bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAIN_PANEL_STRUCTURE_NORMALS
+    second: {fileID: 2800000, guid: a1377628d2ea9ec4982aa0eff59b54bc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OVERHEAD_STRUCTURE
+    second: {fileID: 2800000, guid: 4f5ee391292cbce4da9ca6a8bc19e85c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OVERHEAD_STRUCTURE_normals
+    second: {fileID: 2800000, guid: dc08f62c0d438f14baf6e1a500445c91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OVERHEAD_SWITCHES_AND_FIRE_HANDLES
+    second: {fileID: 2800000, guid: 444b315f59137ec46beee81d0fcf0b76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PEDESTAL_BLACK_KNOBS_MCDU_BUTTONS
+    second: {fileID: 2800000, guid: 67135415322b0e34cb6c2eaaa88f4092, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PEDESTAL_HANDLES
+    second: {fileID: 2800000, guid: 1f066b832e117b940a6b13be05be083a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PEDESTAL_STRUCTURE_AND_PANELS
+    second: {fileID: 2800000, guid: e94b5a36dc250424381c08eaa2d51884, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SCREWS
+    second: {fileID: 2800000, guid: 66cb462c5d548f04db4bc09275f6b055, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: YOKES
+    second: {fileID: 2800000, guid: 707a6de984cedd34fb40a227058f28b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: YOKES_normals
+    second: {fileID: 2800000, guid: 6098f3282a7b9024e9bd75ef489e4086, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
